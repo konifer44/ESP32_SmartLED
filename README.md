@@ -63,7 +63,7 @@ void user_led_pwm_init(void)
 Bluetooth configuration is prepared with help of offical walkthrough: [Bluetooth Example Walkthrough]
 
 ## Creating Bluetooth Services
-I have created two way to control LED <br/>
+I have created two ways to control LED <br/>
 1.Control every LED color as separate Bluetooth serivce.<br/>
 2.Control RGB colors as one RGB service and send array of RBG data. - In this projcect I have choosed this one.
 ```c
@@ -178,8 +178,8 @@ uint8_t *value;           /*!< The write attribute value */
  ``` 
 
 
-RBG data delivered from my iPhone are inside of ```  uint8_t *value; ``` 
-In next step Im going to read that data and set each PWM channel to finally control LED
+RBG data delivered from my iPhone are inside of ```  uint8_t *value; ``` <br/>
+In last step Im going to read RGB data and set each PWM channel to finally control my LED
 ```c
 case ESP_GATTS_WRITE_EVT:
             if (!param->write.is_prep){            
