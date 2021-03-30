@@ -2,7 +2,7 @@
 
 >This code is responsible for configure ESP32 SoC, configure GPIO's and establish Bluetooth connection with iPhone using [ESP-IDF] which is official development framework for ESP32
   
-## Hadrware
+# Hadrware
 <img src="device.jpg" alt="drawing" width="400"/>
 
 * [ESP32] - used SoC
@@ -10,17 +10,17 @@
 * Some current limitting resistors for each LED channel
 
  
-This device is controlled by my iOS application that is available in this repository: 
+##This device is controlled by my iOS application that is available in this repository: 
 [SwiftUI_SmartLED iOS Application]
 
-<img src="detailedControls.PNG" alt="drawing" width="300"/>
+<img src="detailedControls.PNG" alt="drawing" width="400"/>
 
 
 
 # LED Configuration
 The LED is controlled by official provided LEDC (LED Control) phrepiperal that is designed to control the intensity of LEDs.
 Official documentatiton: [LEDC documentatiton]
-### LED GPIO's & PWM Configuration 
+## LED GPIO's & PWM Configuration 
 ```c
 void user_led_pwm_init(void)
 {
@@ -62,7 +62,7 @@ void user_led_pwm_init(void)
 # Bluetooth Configuration
 Bluetooth configuration is prepared with help of offical walkthrough: [Bluetooth Example Walkthrough]
 
-### Creating Bluetooth Services
+## Creating Bluetooth Services
 I have two options to choose from (for eductional reasons)
 1.Control every LED color as separate Bluetooth serivce.
 2.Control RGB colors as one service and send array of RBG data. - I have choosed this one.
@@ -91,7 +91,7 @@ enum
 ```
 
 
-### Services configuration 
+## Services configuration 
 ```c
 static const esp_gatts_attr_db_t gatt_db[LED_INDEX_NUMBER] =
 {
@@ -161,7 +161,7 @@ static const esp_gatts_attr_db_t gatt_db[LED_INDEX_NUMBER] =
 };
 ```
 
-# Managing of delivered Bluetooth data
+## Managing of delivered Bluetooth data
 When data are delivered  the server callback ``` ESP_GATTS_WRITE_EVT ``` is called
 Data are delivered as  parameter: ``` gatts_write_evt_param  ``` which include: 
 
