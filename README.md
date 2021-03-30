@@ -63,9 +63,9 @@ void user_led_pwm_init(void)
 Bluetooth configuration is prepared with help of offical walkthrough: [Bluetooth Example Walkthrough]
 
 ## Creating Bluetooth Services
-I have two options to choose from (for eductional reasons)
-1.Control every LED color as separate Bluetooth serivce.
-2.Control RGB colors as one service and send array of RBG data. - I have choosed this one.
+I have created two way to control LED <br/>
+1.Control every LED color as separate Bluetooth serivce.<br/>
+2.Control RGB colors as one RGB service and send array of RBG data. - In this projcect I have choosed this one.
 ```c
 enum
 {
