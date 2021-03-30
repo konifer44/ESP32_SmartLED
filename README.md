@@ -1,6 +1,6 @@
 # ESP_IDF_SmartLED
 
->This code is responsible for configure ESP32 SoC, configure GPIO's and establish Bluetooth connection with iPhone using [ESP-IDF] which is official development framework for ESP32
+>This code is responsible for configure ESP32 SoC, configure GPIO's and establish Bluetooth connection with iPhone and control RGB LED using [ESP-IDF] which is official development framework for ESP32
   
 # Hadrware
 <img src="device.jpg" alt="drawing" width="400"/>
