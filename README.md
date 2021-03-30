@@ -2,7 +2,15 @@
 
 >This code is responsible for configure ESP32 SoC, configure GPIO's and establish Bluetooth connection with iPhone using [ESP-IDF] which is official development framework for ESP32
   
-### This device is controlled by my iOS application that is available in this repository: 
+## Hadrware
+<img src="device.jpg" alt="drawing" width="400"/>
+
+* [ESP32] - used SoC
+* [RGB LED] - example of RGB LED
+* Some current limitting resistors for each LED channel
+
+ 
+This device is controlled by my iOS application that is available in this repository: 
 [SwiftUI_SmartLED iOS Application]
 
 <img src="detailedControls.PNG" alt="drawing" width="300"/>
@@ -202,12 +210,7 @@ case ESP_GATTS_WRITE_EVT:
       	    break;
 ```
 
-## Hadrware
-<img src="device.jpg" alt="drawing" width="400"/>
 
-* [ESP32] - used SoC
-* [RGB LED] - example of RGB LED
-* Some current limitting resistors for each LED channel
 
 [ESP32]: <https://www.espressif.com/en/products/socs/esp32>
 [ESP-IDF]: <https://docs.espressif.com/projects/esp-idf/en/latest/esp32/>
