@@ -10,7 +10,7 @@
 * Some current limitting resistors for each LED channel
 
  
-##This device is controlled by my iOS application that is available in this repository: 
+## This device is controlled by my iOS application that is available in this repository: 
 [SwiftUI_SmartLED iOS Application]
 
 <img src="detailedControls.PNG" alt="drawing" width="400"/>
