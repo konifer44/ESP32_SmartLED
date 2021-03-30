@@ -2,7 +2,7 @@
 
 >This code is responsible for configure ESP32 SoC, configure GPIO's and establish Bluetooth connection with iPhone using [ESP-IDF] which is official development framework for ESP32
   
-# This device is controlled by my iOS application that is available in this repository: 
+## This device is controlled by my iOS application that is available in this repository: 
 [SwiftUI_SmartLED iOS Application]
 
 <img src="detailedControls.PNG" alt="drawing" width="400"/>
