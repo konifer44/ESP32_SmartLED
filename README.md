@@ -1,4 +1,4 @@
-# ESP32_SmartLED
+# ESP32_SmartLED_Device
 
 >This code is responsible for configure ESP32 SoC, configure GPIO's and establish Bluetooth connection with iPhone and control RGB LED using [ESP-IDF] which is official development framework for ESP32
   
