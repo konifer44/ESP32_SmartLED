@@ -11,7 +11,7 @@
 
  
 ## This device is controlled by my iOS application that is available in this repository: 
-[SwiftUI_SmartLED iOS Application]
+[SwiftUI_SmartLED_App]
 
 <img src="detailedControls.PNG" alt="drawing" width="400"/>
 
@@ -217,4 +217,4 @@ case ESP_GATTS_WRITE_EVT:
 [LEDC documentatiton]: <https://docs.espressif.com/projects/esp-idf/en/latest/esp32/api-reference/peripherals/ledc.html>
 [Bluetooth Example Walkthrough]: <https://github.com/espressif/esp-idf/blob/1067b28707e527f177752741e3aa08b5dc64a4d7/examples/bluetooth/bluedroid/ble/gatt_server_service_table/tutorial/Gatt_Server_Service_Table_Example_Walkthrough.md>
 [RGB LED]: <https://www.sparkfun.com/products/10820>
-[SwiftUI_SmartLED iOS Application]: <https://github.com/konifer44/SwiftUI_SmartLED>
+[SwiftUI_SmartLED_App]: <https://github.com/konifer44/SwiftUI_SmartLED_App>
