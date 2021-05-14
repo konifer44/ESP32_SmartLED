@@ -10,7 +10,7 @@
 * Some current limitting resistors for each LED channel
 
  
-## This device is controlled by my iOS application that is available in this repository: 
+## This device is controlled by iOS application that is available in this repository: 
 [SwiftUI_SmartLED_App]
 
 <img src="detailedControls.PNG" alt="drawing" width="400"/>
@@ -178,8 +178,8 @@ uint8_t *value;           /*!< The write attribute value */
  ``` 
 
 
-RBG data delivered from my iPhone are inside of ```  uint8_t *value; ``` <br/>
-In last step Im going to read RGB data and set each PWM channel to finally control my LED
+RBG data delivered from iPhone are inside of ```  uint8_t *value; ``` <br/>
+In last step RGB data are readed and set each PWM channel to finally control my LED
 ```c
 case ESP_GATTS_WRITE_EVT:
             if (!param->write.is_prep){            
